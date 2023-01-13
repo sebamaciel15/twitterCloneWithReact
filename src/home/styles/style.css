@@ -1,3 +1,11 @@
+*{
+	font-family: 'Montserrat', sans-serif; 
+	color: #e7e9ea;
+	letter-spacing: -1.2;
+	transition-property: background-color color;
+	transition-duration: 0.2s;
+}
+
 .grid__container{
     display: grid;
      grid-template-columns: 0.65fr 0.95FR 0.85fr;
@@ -8,62 +16,19 @@
      background-color: #000;
 }
 
-.pc .elements{
-    display: flex;
-    
-    position: relative;
-    flex-direction: column;
-    font-size: 20px;
-    font-weight: 560;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: 25px;
-    height: 450px;
+.container-left{
+	display: flex;
+	position: sticky;
+	top: 0;
+	flex-direction: column;
+	/*width: 0.1fr*/
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 100vh;
+	}
 
-
-    }
-
-    .pc a{
-        border-radius: 50px;
-        transition-property: background-color;
-        transition-duration: 0.2s;
-        margin-bottom: 5px;
-
-    }
-
-    .pc .c-l{
-    padding: 12px;
-    text-decoration: none;
-    }
-
-    .pc a i{
-    padding-right: 20px;
-    margin: 5px 0 5px 0;
-    }
-    .pc .__home{
-        font-weight: 600;
-    }
-    .pc a .fa-hashtag{
-        padding-right: 25px;
-    }
-    .pc a .fa-bell{
-        padding-right: 25px;
-    }
-    .pc a .fa-envelope{
-        padding-right: 23px;
-    }
-.pc a .fa-bookmark{
-        padding-right: 28px;
-    }
-    .pc a .fa-file-lines{
-        padding-right: 28px;
-    }
-.pc a .fa-user{
-        padding-right: 25px;
-    }
-    .pc a .fa-bars{
-        padding-right: 25px;
-    }
+    /* Esto es el componente icon:  */
     .pc span i{
     font-size: 28px;
     }
@@ -72,21 +37,6 @@
         margin-bottom: 15px;
         left: 10px;
     }
-    .pc .elements .__tweetL{
-        width: 226px;
-        display: inline-block;
-        position: relative;
-        height: 50px;
-        box-sizing: border-box;
-        border-radius: 50px;
-        background-color: #1D9BF0;
-        font-size: 16px;
-        font-weight: 800;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        vertical-align: center;
-        margin: 3px 0;
-        padding: 10px;
-        }
+    /* fin componente icon */
+
 
