@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome,faHashtag,faBell,faEnvelope,faBookmark,faFileLines,faUser,faBars } from '@fortawesome/free-solid-svg-icons'
-import './style.css'
+import './styleElements.css'
 
 export const Elements = () => {
   return (

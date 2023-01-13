@@ -1,3 +1,5 @@
+import { faStar } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const Fixed = () => {
   return (
@@ -8,7 +10,7 @@ export const Fixed = () => {
             </a>
             <a href="" title="Tweets destacados">
               <span className="material-icons">
-                <span className="material-icons">auto_awesome</span>
+                <FontAwesomeIcon icon={faStar} className="fa-stars"/>
               </span>
             </a>
           </div>

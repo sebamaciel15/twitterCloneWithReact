@@ -12,7 +12,6 @@ import { ContainerRight } from '../components/container-right/ContainerRight';
 export const Home = () => {
   return (
     <>
-      <h1>Inicio / Twitter</h1>
       <div className="grid__container">
         <ContainerLeft/>
 

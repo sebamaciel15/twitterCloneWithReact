@@ -6,6 +6,10 @@
 	transition-duration: 0.2s;
 }
 
+a{
+	text-decoration: none;
+}
+
 .grid__container{
     display: grid;
      grid-template-columns: 0.65fr 0.95FR 0.85fr;
@@ -28,15 +32,5 @@
 	height: 100vh;
 	}
 
-    /* Esto es el componente icon:  */
-    .pc span i{
-    font-size: 28px;
-    }
-    .pc span{
-        position: relative;
-        margin-bottom: 15px;
-        left: 10px;
-    }
-    /* fin componente icon */
 
 
